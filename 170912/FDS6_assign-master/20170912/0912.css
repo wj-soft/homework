@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body {
+  background: #555;
+}
+
+.container {
+  background: #bbb;
+  min-height: 200vh;
+  width: 1000px;
+
+}
+
+.header {
+  background: yellow;
+  min-height: 200px;
+}
+
+.logo {
+  position: fixed;
+  border: 10px solid blue;
+  font-size: 2.0rem;
+}
+
+.main-content {
+  background: green;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.main-content {
+}
+
+.news, .rank, .personel {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.news {
+  background: aqua;
+  order: 3;
+}
+
+.rank {
+  background: olive;
+}
+
+.personel {
+  background: violet;
+}
+
+.footer {
+  background: red;
+}
+
+
+.info-list {
+}
+
+.info-list li {
+  border: 1px solid black;
+}
+
+.info-1 {
+  top: 100px;
+}
+
+.info-3 {
+  top: 100px;
+}
