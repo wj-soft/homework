@@ -1,0 +1,93 @@
+@charset "utf-8";
+@import url("./normalize.css");
+@import url("./reset.css");
+a:link,
+a:visited {
+  color: white;
+}
+
+a:hover,
+a:focus {
+  color: yellow;
+}
+
+legend {
+  background-color: red;
+  position: absolute;
+  left: -9999em;
+}
+
+body {
+  background-color: gray;
+}
+
+.wrap {
+  background: black;
+  width: 250px;
+  padding: 10px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+
+fieldset {
+  background-color: #C4C494;
+  position: relative;
+  height: 100px;
+}
+
+.wrap label {
+  display: inline-block;
+  width: 60px;
+}
+
+.user-email {
+  margin: 15px 0 0 40px;
+}
+
+.user-pw {
+  margin: 20px 0 0 40px;
+}
+
+.wrap input {
+  width: 80px;
+}
+
+.login-form label,
+input {
+  padding-left: 10px;
+}
+
+.member li {
+  margin: 10px
+}
+
+.member {
+  background-color: black;
+  margin: 0px 10px 0px 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0 0 15px 15px;
+}
+
+.member li a {
+  display: block;
+  width: 60px;
+  text-align: center;
+}
+
+.member li:first-child {
+  border-right: 2px solid white;
+}
+
+.find-password {
+  text-decoration: none;
+  padding-left: 30px;
+  color: black;
+}
