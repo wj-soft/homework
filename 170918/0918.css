@@ -1,0 +1,58 @@
+  @import url("./reset.css");
+  /* 초기 설정 시작 */
+  
+  .wrapper {
+    padding: 10px;
+    background: yellow;
+    width: 500px;
+  }
+  
+  .tab-boards {
+    background: skyblue;
+    margin: 5px;
+    position: relative;
+    height: 150px;
+  }
+  
+  .tab-board {
+    background: lightslategray;
+  }
+  
+  .active .board,
+  .active .more {
+    display: block !important;
+  }
+  
+  .tab {
+    background: yellow;
+    float: left;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  .active .tab {
+    color: red;
+    background: blue;
+  }
+  
+  .board {
+    padding: 5px;
+    background: lightgreen;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none;
+  }
+  
+  .board-item {
+    background: lightsalmon;
+  }
+  
+  .more {
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+  /* 초기 설정 끝 */
