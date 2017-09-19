@@ -1,5 +1,11 @@
 @charset "utf-8";
 @import url("./reset.css");
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 body h2 {
   box-sizing: border-box;
   background: url("img/sprite.png") no-repeat;
@@ -8,16 +14,18 @@ body h2 {
   padding-top: 400px;
   overflow: hidden;
   background-color: gray;
-  background-position: -17px;
+  background-position: -18px 0;
 }
 
 body button {
   background: url("img/sprite.png") no-repeat;
   cursor: pointer;
-  width: 20px;
-  height: 0px;
-  padding-top: 13px;
+  width: 18px;
+  height: 18px;
+  padding-top: 18px;
   overflow: hidden;
 }
 
-body:nth-child(3) {}
+body :nth-child(3) {
+  background-position: 0 -18px;
+}
