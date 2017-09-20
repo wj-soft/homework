@@ -1,0 +1,33 @@
+body {
+  background: lightgray no-repeat left 18px;
+}
+
+.failed-logo {
+  margin: 0;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.failed-logo::before {
+  content: "";
+  width: 350px;
+  height: 350px;
+  display: block;
+  background: no-repeat;
+  background-image: url("./img/sprite.png");
+  background-position: left -18px top 0px;
+}
+
+.btn {
+  border: none;
+  width: 18px;
+  height: 18px;
+  padding: 18px 0 0 0;
+  overflow: hidden;
+  background: url("./img/sprite.png") no-repeat;
+}
+
+.btn-next {
+  background-position-y: -18px;  
+}
