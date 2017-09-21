@@ -32,5 +32,4 @@ a {
 .list-box:focus {
   height: 150px;
   background: skyblue;
-  font-weight: bolder;
 }
