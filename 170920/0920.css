@@ -29,7 +29,13 @@ a {
 }
 
 .list-box:hover,
-.list-box:focus {
+.list-box:focus,
+{
   height: 150px;
   background: skyblue;
+}
+
+.no:focus {
+  height: 150px;
+  background: skyblue !important;
 }
